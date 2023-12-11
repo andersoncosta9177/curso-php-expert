@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5,h6{
+    color:  brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+p{
+    color:  rebeccapurple;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-transform: uppercase ;
+    line-height: 20px;
+}
+
+ul li{
+    list-style-type: decimal-leading-zero;
+}
+
+div{
+    margin: 10px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.espaco-1{
+   background: linear-gradient(60deg, black, red);
+}
+
+.espaco-2{
+    background: rgba(#fefece, #121212, #f3f3, 1);
+}
+
+.espaco-3{
+
+background-attachment: fixed;
+
+}

@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #d3e1ee;
+}
+
+.container{
+    width: 750px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: 1px solid red; */
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(241, 235, 235);
+   
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fbf6f6;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.info{
+    margin:  10px 30px;
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.info p{
+    font-size: 19px;
+    color: rgb(78, 76, 76);
+    margin: 10px 10px;
+    text-indent: unset;
+    
+}
+.info h1{
+    color: rgb(49, 47, 47);
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+}
+
+.info-vantagen{
+    display: flex;
+    width: 700px;
+  
+    flex-direction: column;
+    margin: auto;
+}
+
+.info-vantagen h1{
+    color: rgb(49, 47, 47);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-vantagen ul li{
+    list-style: decimal;
+    color: #142435;
+}
+
+
+.square{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.square div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro{
+    margin: 20px 80px;
+    text-decoration: none;
+     color: #fbf9f9;
+     background-color: #121212;
+
+     padding: 12px;
+     border-radius: 6px;
+
+}
+
+.square div:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s;
+}
+
+#noticia{
+    margin: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+
+#email{
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,td{
+    padding: 5px;
+}
+
+th{
+    background-color: green;
+    color: white;
+}
+
+tr:hover{
+    background-color: grey;
+}
